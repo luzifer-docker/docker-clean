@@ -4,7 +4,8 @@ RUN set -ex \
  && apk --no-cache add \
       bash \
       docker \
-      gawk
+      gawk \
+      jq
 
 COPY docker-clean /usr/local/bin/
 
